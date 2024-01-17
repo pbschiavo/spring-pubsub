@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    gcp:
+      project-id: project-id
+      credentials:
+        location: classpath:credencial.json
+  pubsub:
+    topic-id: topico
+    subscription: projects/project-id/subscriptions/topico-sub
